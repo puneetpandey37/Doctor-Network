@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="docnetPersistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<class>com.docnet.model.user.User</class>
+	</persistence-unit>
+	
+</persistence>

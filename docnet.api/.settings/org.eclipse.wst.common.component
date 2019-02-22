@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="docnet.api">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="docnet.bo-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.bo/docnet.bo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="docnet.common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.common/docnet.common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="docnet.cloud-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.cloud/docnet.cloud">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="docnet.im-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.im/docnet.im">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="docnet.dao-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.dao/docnet.dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="docnet.model-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/docnet.model/docnet.model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="docnet.api"/>
+        <property name="java-output-path" value="/docnet.api/target/classes"/>
+    </wb-module>
+</project-modules>
